@@ -13,7 +13,7 @@
         default:
             Error() << "Trade::TgaImageConverter::convertToData(): unsupported pixel format" << image.format();
             return {};
-    }
+    }//yes
 
  const bool rleAcrossScanlines = configuration().value<bool>("rleAcrossScanlines");
         switch(image.format()) {
